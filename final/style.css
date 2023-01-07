@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #252525;
+    color: #fff;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #181818;
+    margin: auto;
+    padding: 16px 100px;
+    width: 100%;
+}
+
+nav div{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav>div{
+    width: 250px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+#section-2 h2{
+    font-size: 30px;
+}
+
+.intro-text{
+    width: 400px;
+    text-align: center;
+}
+
+.professional{
+    font-size: 20px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+#section-2 img{
+    width: 500px;
+    height: 550px;
+    object-fit: cover;
+}
+
+.container{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 80px auto;
+padding: 10px 100px;
+text-align: center;
+}
+
+.about-me{
+    padding: 0 10px;
+    color: rgb(141, 141, 141);
+    font-size:15px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.btn-contact, #btn-change{
+    display: block;
+    width: 120px;
+    margin: 50px auto;
+    background-color: rgb(40, 185, 130);
+    border: 1px solid rgb(79, 79, 79);
+    padding: 5px 9px;
+    border-radius: 12px;
+}
+
+
+/* js */
+.body-white{
+    background-color: #fff;
+    color: #000
+}
+
+.nav-white{
+    background-color: rgb(221, 220, 220);
+    color: #000;
+}
+
+.mode{
+    padding: 20px;
+}
+.anchor-color{
+     color: black;
+}
+
+
+@media screen and (max-width: 700px)  {
+    nav{
+        padding:9px 15px;
+    }
+    nav div{
+        font-size: 16px;
+        width: 250px;
+        padding: 20px 5px;
+        
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        margin: 25 auto;
+
+    }
+
+    .container img{
+        width: 400px;
+        height: 400px;
+        padding: 40px;
+        object-fit: cover;
+    }
+    
+    .intro-text{
+        margin-top: 50px;
+    }
+}
+
